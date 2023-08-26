@@ -20,5 +20,11 @@ class Main{
         System.out.println("Salaam");
         System.out.println(cal.divide(10,0));
         System.out.println(cal.divide(11,6));
+
+        System.out.println("getMyCarName(): "+Car.getMyCarName());
+        System.out.println("getCarName(): "+ new Car().getCarName());
+
+
+
     }
 }
