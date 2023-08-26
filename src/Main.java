@@ -29,8 +29,6 @@ class Main{
         System.out.println(cal.divide(10,0));
         System.out.println(cal.divide(11,6));
 
-        Car car = new CarOver();
-
         System.out.println("getMyCarName(): "+Car.getMyCarName());
         System.out.println("getCarName(): "+ Arrays.toString(new Car().getCarNames()));
 
