@@ -15,10 +15,21 @@ public class Multiplier {
 
         }
     }
+    void tableT3(int Table_S,int Table_E,int Start,int End) {
+        int i, j;
+        for (j = Start; j <= End; j++) {
+            for (i = Table_S; i <= Table_E; i++) {
+                System.out.print(i+"*"+j+"="+i * j+"\t\t");
+            }
+            System.out.println("\n");
+        }
+    }
     public static void main(String[] args){
         Multiplier M = new Multiplier();
-        M.table(5,10);
-        M.tableT2(5,10,1,10);
+        //M.table(5,10);
+        M.table(5,100);
+        M.tableT2(1,100,0,100);
+        M.tableT3(1,100,0,100);
 
     }
 }
