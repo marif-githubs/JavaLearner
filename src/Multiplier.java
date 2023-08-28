@@ -27,9 +27,9 @@ public class Multiplier {
     public static void main(String[] args){
         Multiplier M = new Multiplier();
         //M.table(5,10);
-        M.table(5,100);
-        M.tableT2(1,100,0,100);
-        M.tableT3(1,100,0,100);
+        //M.table(5,100);
+        M.tableT2(1,10,0,10);
+        M.tableT3(1,10,0,10);
 
     }
 }
