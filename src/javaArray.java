@@ -54,14 +54,14 @@ public class javaArray {
         }
     }
     void printArray2(){
-        int ii = 0;
+        int i2 = 0;
         System.out.print("even Integer Array: [ ");
         for (int i : arr_even) {
             System.out.print(i + " ");
-            ii++;
+            i2++;
         }
         System.out.println("]");
-        System.out.println(ii);
+        System.out.println(i2);
     }
     void rm_dublicate(){
         for (int i = 0;i < (arr_even.size()-1);i++){
