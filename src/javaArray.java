@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Objects;
 
 public class javaArray {
 
@@ -63,15 +64,11 @@ public class javaArray {
         System.out.println("]");
         System.out.println(i2);
     }
-    void rm_dublicate(){
-        for (int i = 0;i < (arr_even.size()-1);i++){
-            if (arr_even.get(i) != arr_even.get(i+1)){
-                arr_rm.add(arr_even.get(i));
-
+    void rm_dublicate() {
+        for (int a : arr_even) {
+            if (!arr_rm.contains(a)) {
+                arr_rm.add(a);
             }
-        }
-        if (arr_rm.get(arr_rm.size()-1) != arr_even.get(arr_even.size()-1)){
-            arr_rm.add(arr_even.get(arr_even.size()-1));
         }
     }
     void printArray3(){
