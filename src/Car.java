@@ -40,9 +40,10 @@ class Alto implements Vehicle{
 public class Car {
 
 
-    String getCarName() {
+    protected String getCarName() {
         return "Car";
     }
+
 
     static String getMyCarName() {
         return "Static Car Name";
